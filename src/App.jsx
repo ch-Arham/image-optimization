@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-      <SolutionOne />
+      {/* <SolutionOne /> */}
       {/* <SolutionTwo /> */}
-      {/* <SolutionThree /> */}
+      <SolutionThree />
 
     </>
   )
