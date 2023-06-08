@@ -11,7 +11,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* change the value to view more images on a line */
+  grid-template-columns: repeat(2, 1fr); /* change the value to view more images on a line */
   grid-gap: 1rem;
   padding: 1rem;
 }
@@ -55,11 +55,11 @@ img {
   background-repeat: no-repeat;  
 }
 
+.blur-load > img {
+  opacity: 0;
+}
+
 .blur-load.loaded > img {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
-}
-
-.blur-load > img {
-  opacity: 0;
 }
