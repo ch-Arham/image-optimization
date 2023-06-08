@@ -22,6 +22,8 @@
  `npm run dev`
  
  5. *Uncomment the different solutions to see their working in the App.jsx file.*
+ 
+ 6. *Inspect -->  Network --> Set Throttling to Fast 3G and select img filter.*
 
 > *Don't forget to give a start ⭐️*
 
