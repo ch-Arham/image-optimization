@@ -5,8 +5,11 @@ import SolutionTwo from './components/SolutionTwo'
 function App() {
 
   return (
-    // <SolutionOne />
-    <SolutionTwo />
+    <>
+      <SolutionOne />
+      {/* <SolutionTwo /> */}
+
+    </>
   )
 }
 

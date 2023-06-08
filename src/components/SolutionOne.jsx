@@ -46,13 +46,16 @@ const SolutionOne = () => {
 
             const loaded = () => {
                 div.classList.add('loaded')
-                img.removeEventListener('load', loaded);
             }
 
             if (img.complete) {
                 loaded()
             } else {
                 img.addEventListener('load', loaded)
+            }
+
+            return () => {
+                img.removeEventListener('load', loaded)
             }
         })
     }, [])
