@@ -1,6 +1,7 @@
 import './App.css'
 import SolutionOne from './components/SolutionOne'
 import SolutionTwo from './components/SolutionTwo'
+import SolutionThree from './components/SolutionThree'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <SolutionOne />
       {/* <SolutionTwo /> */}
+      {/* <SolutionThree /> */}
 
     </>
   )
