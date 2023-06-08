@@ -61,4 +61,3 @@ export default ImageComponent
 
 
 // Solution: use the same width and height for both the blurhash and the actual image
-// Solution2: It is implemented in the above code
