@@ -1,13 +1,13 @@
 ## Introduction
 
-> As you work on websites with high image usage you encounter load time issues. You will probably try to reduce the load time by:
-> - Optimizing the code, and images. 
-> - Minifying CSS.
-> - Server Side Rendering etc
-> 
-> But still there will be something missing. I provide solutions for that something .
->
->**Introducing Images Optimizing by Lazy Loading and Blur Image showing until the original loads techniques.**
+ As you work on websites with high image usage you encounter load time issues. You will probably try to reduce the load time by:
+ - Optimizing the code, and images. 
+ - Minifying CSS.
+ - Server Side Rendering etc
+ 
+ But still there will be something missing. I provide solutions for that something .
+
+**Introducing Images Optimizing by Lazy Loading and Blur Image showing until the original loads techniques.**
 
  1. *Clone the project.*
  2. *Preferably use Node version 16.17.1*
@@ -22,15 +22,16 @@
  `npm run dev`
  
  5. *Uncomment the different solutions to see their working in the App.jsx file.*
- 
  6. *Inspect -->  Network --> Set Throttling to Fast 3G and select img filter.*
 
-> *Don't forget to give a start ⭐️*
+> **Note: By default Solution One is shown.** 
+> 
+> ****Don't forget to give a star*** ⭐️*
 
 ## Solution One
 
-> **This is implemented using custom JSX, CSS, and JS.**
-> **This is flexible and can be customised any way seen fit.**
+**This is implemented using custom JSX, CSS, and JS.**
+**This is flexible and can be customised any way seen fit.**
 
  1.  By default images have loading attribute set to *eager*. You can change this to `loading='lazy'` to trigger the lazy loading on images. (Yes, it is as simple as that).
  2. Generate a blur version of the images to be used.
@@ -64,10 +65,10 @@
 
 ## Solution Three
 
-> **This solution uses the lazysizes library**
+**This solution uses the lazysizes library**
 > 
 > The best way to describe this library is that they use the same approach as the solution one.
 >
 >It is highly optimised and cross browser compatible.
 >
->**Check their doc to learn more [lazysizes](https://www.npmjs.com/package/lazysizes/v/5.3.2)**
+**Check their doc to learn more [lazysizes](https://www.npmjs.com/package/lazysizes/v/5.3.2)**
