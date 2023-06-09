@@ -52,7 +52,7 @@
 
 > **This Solution uses the blur hash technique**
 
- 1. For each image generate blur hash from the [blur hash website.](https://blurha.sh/)
+ 1. For each image generate blur hash from the [blur hash website](https://blurha.sh/) or use their encoder and decoder.
  2. Store the image URL/path and blur hash in an object together
  3. Install blurhash react package and use it to decode the blur hash.
  4. When the original image is loaded show original image instead of blur hash image.
@@ -75,3 +75,12 @@
 >It is highly optimised and cross browser compatible.
 >
 **Check their doc to learn more [lazysizes](https://www.npmjs.com/package/lazysizes/v/5.3.2)**
+
+## Other Solutions
+
+1. **This solution uses the React Lazy Load Image Component **
+
+> https://www.npmjs.com/package/react-lazy-load-image-component
+
+
+**Note: Width and height on images are required for the browser to be able to calculate the viewport**
