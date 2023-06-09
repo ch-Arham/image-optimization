@@ -59,8 +59,11 @@
 
 
 > There are draw backs to this approach.
+>
 > Although it is very convenient to have the URL and blur hash in the database and simply fetching and displaying them but **the blur image does not perfectly align with the actual image**
+>
 > On different screens this issue can be seen so the only solution to this is:
+>
 > **Set width and height for different screen sizes and match it with the blurhash width and height**
 
 ## Solution Three
